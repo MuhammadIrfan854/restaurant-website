@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DelishBite | Restaurant</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header id="navbar">
+    <nav class="navbar">
+      <div class="logo"><i class="fas fa-utensils"></i> DelishBite</div>
+      <ul id="nav-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <i class="fas fa-bars" id="menu-toggle"></i>
+      <div class="button">
+        <button>Book Now</button>
+      </div>
+    </nav>
+  </header>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const toggleBtn = document.getElementById("menu-toggle");
+      const navLinks = document.getElementById("nav-links");
+
+      toggleBtn.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+      });
+    });
+  </script>
+</body>
+</html>
