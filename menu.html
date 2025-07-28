@@ -1,14 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-     <div id="navbar"></div>
-     <h1>Hello</h1>
-     <div id="footer"></div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DelishBite | Menu</title>
+    <link rel="stylesheet" href="./css/menu.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="navbar"></div>
+
+    <section id="menu">
+      <div class="hero-banner">
+        <h1>Explore Our Menu</h1>
+        <p>Delicious dishes prepared with passion and fresh ingredients.</p>
+        <button>Order Now</button>
+      </div>
+
+      <div class="section starters">
+        <h2>Starters</h2>
+        <div class="cards">
+          <div class="card">
+            <img src="images/menu-spring-roll.jpg" alt="Spring Roll" />
+            <h3>Spring Roll</h3>
+            <p>Crispy rolls filled with veggies and served with tangy sauce.</p>
+            <strong>$7</strong>
+          </div>
+          <div class="card">
+            <img src="images/menu-bruschetta.jpg" alt="Bruschetta" />
+            <h3>Bruschetta</h3>
+            <p>Grilled bread topped with tomatoes, olive oil, and herbs.</p>
+            <strong>$9</strong>
+          </div>
+          <div class="card">
+            <img src="images/caesar salad.jpg" alt="Caesar Salad" />
+            <h3>Caesar Salad</h3>
+            <p>Fresh greens with croutons, parmesan & creamy Caesar dressing.</p>
+            <strong>$5</strong>
+          </div>
+        </div>
+      </div>
+
+      <div class="section mains">
+        <h2>Main Courses</h2>
+        <div class="cards">
+          <div class="card horizontal">
+            <img src="images/Pizza-menu.jpg" alt="Margherita Pizza" />
+            <div class="text">
+              <h3>Margherita Pizza</h3>
+              <p>Classic tomato, basil, and mozzarella on a hand-tossed crust.</p>
+              <strong>$12</strong>
+            </div>
+          </div>
+          <div class="card horizontal">
+            <img src="images/salmon.jpg" alt="Grilled Salmon" />
+            <div class="text">
+              <h3>Grilled Salmon</h3>
+              <p>Perfectly grilled salmon fillet with lemon herb butter.</p>
+              <strong>$18</strong>
+            </div>
+          </div>
+          <div class="card horizontal">
+            <img src="images/pasta.jpg" alt="Pasta" />
+            <div class="text">
+              <h3>Classic Pasta</h3>
+              <p>Rich tomato sauce, parmesan, and herbs over fresh pasta.</p>
+              <strong>$12</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section desserts">
+        <h2>Desserts</h2>
+        <div class="cards">
+          <div class="card">
+            <img src="images/chocklate-cake-menu.jpg" alt="Chocolate Cake" />
+            <h3>Chocolate Cake</h3>
+            <p>Rich, moist cake with layers of decadent chocolate frosting.</p>
+            <strong>$10</strong>
+          </div>
+          <div class="card">
+            <img src="images/cake-menu.jpg" alt="Vanilla Cake" />
+            <h3>Vanilla Cake</h3>
+            <p>Classic vanilla sponge with buttercream and fresh fruits.</p>
+            <strong>$4</strong>
+          </div>
+          <div class="card">
+            <img src="images/chocklate-cake-menu.jpg" alt="Cheesecake" />
+            <h3>Cheesecake</h3>
+            <p>Creamy and smooth with a graham cracker crust.</p>
+            <strong>$7</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="footer"></div>
     <script src="./js/includes.js"></script>
-</body>
+  </body>
 </html>
