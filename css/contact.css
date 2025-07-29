@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: linear-gradient(135deg, #fdf3e7, #fdeee3);
+  color: #333;
+}
+
+form {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 55%;
+  margin: 9% auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 40px 50px;
+}
+
+form > h2 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  color: #2c3e50;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.form-input {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.form-input > label {
+  font-size: 16px;
+  font-weight: 600;
+  color: #555;
+}
+
+.form-input > input[type="text"],
+.form-input > input[type="email"],
+.form-input > input[type="password"],
+.form-input > input[type="number"] {
+  padding: 12px;
+  border-radius: 6px;
+  border: 1.5px solid #ccc;
+  transition: border-color 0.3s;
+}
+
+input:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+.form-button {
+  margin-top: 5px;
+}
+
+.form-button > button {
+  background-color: #3498db;
+  width: 100%;
+  border: none;
+  padding: 14px;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form-button > button:hover {
+  background-color: #2980b9;
+}
